@@ -1,0 +1,73 @@
+[1/5] cmd.exe /C "cd /D C:\Users\TienShawn\Desktop\test_esp_smart_config\build\esp-idf\esptool_py && E:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/TienShawn/Desktop/test_esp_smart_config/build/partition_table/partition-table.bin C:/Users/TienShawn/Desktop/test_esp_smart_config/build/test_esp_smart_config.bin"
+test_esp_smart_config.bin binary size 0xe4da0 bytes. Smallest app partition is 0x177000 bytes. 0x92260 bytes (39%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\TienShawn\Desktop\test_esp_smart_config\build\bootloader\esp-idf\esptool_py && E:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/TienShawn/Desktop/test_esp_smart_config/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/3] cmd.exe /C "cd /D C:\Users\TienShawn\esp\v5.2.1\esp-idf\components\esptool_py && E:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/TienShawn/esp/v5.2.1/esp-idf -D SERIAL_TOOL=E:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/TienShawn/Desktopesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 test_esp_smart_config.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: d0:ef:76:58:7c:98
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000f4fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16356...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16356 compressed) at 0x00001000 in 0.7 seconds (effective 325.0 kbit/s)...
+Hash of data verified.
+Compressed 937376 bytes to 588176...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001d91b... (5 %)
+Writing at 0x000263da... (8 %)
+Writing at 0x0002b286... (11 %)
+Writing at 0x00034613... (13 %)
+Writing at 0x0003f0f4... (16 %)
+Writing at 0x00044b62... (19 %)
+Writing at 0x0004a6eb... (22 %)
+Writing at 0x00050339... (25 %)
+Writing at 0x0005603d... (27 %)
+Writing at 0x0005bb21... (30 %)
+Writing at 0x00061f45... (33 %)
+Writing at 0x000680f3... (36 %)
+Writing at 0x0006ddaf... (38 %)
+Writing at 0x00073818... (41 %)
+Writing at 0x00078a01... (44 %)
+Writing at 0x0007e01c... (47 %)
+Writing at 0x00083378... (50 %)
+Writing at 0x000889ae... (52 %)
+Writing at 0x0008df30... (55 %)
+Writing at 0x0009372d... (58 %)
+Writing at 0x0009950a... (61 %)
+Writing at 0x0009eead... (63 %)
+Writing at 0x000a49c1... (66 %)
+Writing at 0x000aa4e6... (69 %)
+Writing at 0x000b001d... (72 %)
+Writing at 0x000b5d87... (75 %)
+Writing at 0x000bb5bf... (77 %)
+Writing at 0x000c12ff... (80 %)
+Writing at 0x000c6ee7... (83 %)
+Writing at 0x000cc9f4... (86 %)
+Writing at 0x000d72e9... (88 %)
+Writing at 0x000de326... (91 %)
+Writing at 0x000e4361... (94 %)
+Writing at 0x000ea01b... (97 %)
+Writing at 0x000efe26... (100 %)
+Wrote 937376 bytes (588176 compressed) at 0x00010000 in 14.2 seconds (effective 527.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.0 seconds (effective 785.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+/test_esp_smart_config/build -P C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esptool_py/run_serial_tool.cmake"

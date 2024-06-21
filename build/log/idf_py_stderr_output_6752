@@ -1,0 +1,1755 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
+[0;33m0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/panic.c:472
+0x400890dd: esp_system_abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090895: abort at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/newlib/abort.c:38
+0x400890d3: _esp_error_check_failed at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/esp_system/esp_err.c:50
+0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+0x40089be9: vPortTaskWrapper at C:/Users/TienShawn/esp/v5.2.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d736f: ultrasonic_test at C:/Users/TienShawn/Desktop/test_esp_smart_config/main/main.c:197 (discriminator 1)
+[0m
