@@ -17,46 +17,36 @@
 #include "esp_log.h"
 #include "esp_smartconfig.h"
 
+static const char *TAG = "MQTT_PROJECT";
+
 #define WIFI_CONNECTED_BIT BIT0
+#define ESPTOUCH_DONE_BIT BIT1
 
 static EventGroupHandle_t s_wifi_event_group;
 
-static const int ESPTOUCH_DONE_BIT = BIT1;
-static const char *TAG = "smartconfig_example";
-
-void ultrasonic_test(void *pvParameters);
-
 #define MQTT_PUB_VALUE_1 "esp32/test1"
-
-// broker server setup
 #define MQTT_BROKER_URI "mqtt://103.1.238.175:1883"
 #define MQTT_USERNAME "test"
 #define MQTT_PASSWORD "testadmin"
-
 
 uint32_t MQTT_CONNECTED = 0;
 esp_mqtt_client_handle_t client = NULL;
 
 typedef struct {
     int timestamp;
-
     float temperature;
     float humidity;
-
     int pm1_0;
     int pm2_5;
     int pm10;
-
     int CO2;
 } SensorData;
 
-static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_t event_id, void *event_data)
-{
+static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_t event_id, void *event_data) {
     esp_mqtt_event_handle_t event = event_data;
     client = event->client;
 
-    switch (event_id)
-    {
+    switch (event_id) {
     case MQTT_EVENT_CONNECTED:
         ESP_LOGI(TAG, "MQTT_EVENT_CONNECTED");
         MQTT_CONNECTED = 1;
@@ -64,14 +54,14 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
     case MQTT_EVENT_DISCONNECTED:
         ESP_LOGI(TAG, "MQTT_EVENT_DISCONNECTED");
         MQTT_CONNECTED = 0;
+        esp_mqtt_client_reconnect(client);  // Attempt to reconnect
         break;
     default:
         break;
     }
 }
 
-static void mqtt_app_start(void)
-{
+static void mqtt_app_start(void) {
     esp_mqtt_client_config_t mqtt_cfg = {
         .broker.address.uri = MQTT_BROKER_URI,
         .credentials.username = MQTT_USERNAME,
@@ -83,10 +73,9 @@ static void mqtt_app_start(void)
     esp_mqtt_client_start(client);
 }
 
-static void event_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data)
-{
+static void event_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data) {
     if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START) {
-        xTaskCreate(ultrasonic_test, "smartconfig_example_task", 4096, NULL, 3, NULL);
+        esp_wifi_connect();
     } else if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) {
         esp_wifi_connect();
         xEventGroupClearBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
@@ -118,24 +107,23 @@ static void event_handler(void* arg, esp_event_base_t event_base, int32_t event_
         ESP_LOGI(TAG, "SSID:%s", ssid);
         ESP_LOGI(TAG, "PASSWORD:%s", password);
         if (evt->type == SC_TYPE_ESPTOUCH_V2) {
-            ESP_ERROR_CHECK( esp_smartconfig_get_rvd_data(rvd_data, sizeof(rvd_data)) );
+            ESP_ERROR_CHECK(esp_smartconfig_get_rvd_data(rvd_data, sizeof(rvd_data)));
             ESP_LOGI(TAG, "RVD_DATA:");
-            for (int i=0; i<33; i++) {
+            for (int i = 0; i < 33; i++) {
                 printf("%02x ", rvd_data[i]);
             }
             printf("\n");
         }
 
-        ESP_ERROR_CHECK( esp_wifi_disconnect() );
-        ESP_ERROR_CHECK( esp_wifi_set_config(WIFI_IF_STA, &wifi_config) );
+        ESP_ERROR_CHECK(esp_wifi_disconnect());
+        ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config));
         esp_wifi_connect();
     } else if (event_base == SC_EVENT && event_id == SC_EVENT_SEND_ACK_DONE) {
         xEventGroupSetBits(s_wifi_event_group, ESPTOUCH_DONE_BIT);
     }
 }
 
-void wifi_init_sta()
-{
+void wifi_init_sta() {
     s_wifi_event_group = xEventGroupCreate();
 
     ESP_ERROR_CHECK(esp_netif_init());
@@ -144,41 +132,36 @@ void wifi_init_sta()
     assert(sta_netif);
 
     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
-    ESP_ERROR_CHECK( esp_wifi_init(&cfg) );
+    ESP_ERROR_CHECK(esp_wifi_init(&cfg));
 
-    ESP_ERROR_CHECK( esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL) );
-    ESP_ERROR_CHECK( esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &event_handler, NULL) );
-    ESP_ERROR_CHECK( esp_event_handler_register(SC_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL) );
+    ESP_ERROR_CHECK(esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL));
+    ESP_ERROR_CHECK(esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &event_handler, NULL));
+    ESP_ERROR_CHECK(esp_event_handler_register(SC_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL));
 
-    ESP_ERROR_CHECK( esp_wifi_set_mode(WIFI_MODE_STA) );
-    ESP_ERROR_CHECK( esp_wifi_start() );
-
+    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
+    ESP_ERROR_CHECK(esp_wifi_start());
 }
 
-
-void ultrasonic_test(void *pvParameters)
-{
-    //check wifi connection
+void ultrasonic_test(void *pvParameters) {
     EventBits_t uxBits;
-    ESP_ERROR_CHECK( esp_smartconfig_set_type(SC_TYPE_ESPTOUCH) );
+    ESP_ERROR_CHECK(esp_smartconfig_set_type(SC_TYPE_ESPTOUCH));
     smartconfig_start_config_t cfg = SMARTCONFIG_START_CONFIG_DEFAULT();
-    ESP_ERROR_CHECK( esp_smartconfig_start(&cfg) );
-    while (1) {
-        uxBits = xEventGroupWaitBits(s_wifi_event_group, WIFI_CONNECTED_BIT | ESPTOUCH_DONE_BIT, true, false, portMAX_DELAY);
-        if(uxBits & WIFI_CONNECTED_BIT) {
-            ESP_LOGI(TAG, "WiFi Connected to app");
+    ESP_ERROR_CHECK(esp_smartconfig_start(&cfg));
 
+    uxBits = xEventGroupWaitBits(s_wifi_event_group, WIFI_CONNECTED_BIT | ESPTOUCH_DONE_BIT, true, false, portMAX_DELAY);
+    if (uxBits & WIFI_CONNECTED_BIT) {
+        ESP_LOGI(TAG, "WiFi Connected to app");
+        
+    while (true) {
             SensorData sensor_data;
-            // edit value here
-            // sample value
-            // sensor_data.timestamp = rand() % 10;
-            // sensor_data.temperature = rand() % 20;
-            // sensor_data.humidity = rand() % 30;
-            // sensor_data.pm1_0 = rand() % 40;
-            // sensor_data.pm2_5 = rand() % 50;
-            // sensor_data.pm10 = rand() % 60;
-            // sensor_data.CO2 = rand() % 70;
-    
+            sensor_data.timestamp = rand() % 10;
+            sensor_data.temperature = rand() % 20;
+            sensor_data.humidity = rand() % 30;
+            sensor_data.pm1_0 = rand() % 40;
+            sensor_data.pm2_5 = rand() % 50;
+            sensor_data.pm10 = rand() % 60;
+            sensor_data.CO2 = rand() % 70;
+
             cJSON *root = cJSON_CreateObject();
             cJSON_AddNumberToObject(root, "timestamp", sensor_data.timestamp);
             cJSON_AddNumberToObject(root, "temperature", sensor_data.temperature);
@@ -194,27 +177,28 @@ void ultrasonic_test(void *pvParameters)
             free(json_string);
         }
         vTaskDelay(10000 / portTICK_PERIOD_MS);
-        
-        if(uxBits & ESPTOUCH_DONE_BIT) {
+
+        if (uxBits & ESPTOUCH_DONE_BIT) {
             ESP_LOGI(TAG, "smartconfig done");
+            // esp_smartconfig_stop();
+            // vTaskDelete(NULL);
         }
     }
 }
 
-void app_main()
-{
+void app_main() {
     esp_err_t ret = nvs_flash_init();
-    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
-    {
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
         ESP_ERROR_CHECK(nvs_flash_erase());
         ret = nvs_flash_init();
     }
     ESP_ERROR_CHECK(ret);
 
     wifi_init_sta(); // Initialize and connect to Wi-Fi
+
     xTaskCreate(ultrasonic_test, "ultrasonic_test", configMINIMAL_STACK_SIZE * 3, NULL, 5, NULL);
 
+    // Wait for Wi-Fi connection before starting MQTT
     xEventGroupWaitBits(s_wifi_event_group, WIFI_CONNECTED_BIT, pdFALSE, pdTRUE, portMAX_DELAY);
-    ESP_ERROR_CHECK(mqtt_app_start()); // Start the MQTT client
-
+    mqtt_app_start(); // Start the MQTT client
 }
