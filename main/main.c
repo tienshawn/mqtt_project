@@ -154,6 +154,7 @@ void send_data(void *pvParameters) {
         
     while (true) {
             SensorData sensor_data;
+            // random data send
             sensor_data.timestamp = rand() % 10;
             sensor_data.temperature = rand() % 20;
             sensor_data.humidity = rand() % 30;
