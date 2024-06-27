@@ -142,7 +142,7 @@ void wifi_init_sta() {
     ESP_ERROR_CHECK(esp_wifi_start());
 }
 
-void ultrasonic_test(void *pvParameters) {
+void send_data(void *pvParameters) {
     EventBits_t uxBits;
     ESP_ERROR_CHECK(esp_smartconfig_set_type(SC_TYPE_ESPTOUCH));
     smartconfig_start_config_t cfg = SMARTCONFIG_START_CONFIG_DEFAULT();
@@ -196,7 +196,7 @@ void app_main() {
 
     wifi_init_sta(); // Initialize and connect to Wi-Fi
 
-    xTaskCreate(ultrasonic_test, "ultrasonic_test", configMINIMAL_STACK_SIZE * 3, NULL, 5, NULL);
+    xTaskCreate(send_data, "send_data", configMINIMAL_STACK_SIZE * 3, NULL, 5, NULL);
 
     // Wait for Wi-Fi connection before starting MQTT
     xEventGroupWaitBits(s_wifi_event_group, WIFI_CONNECTED_BIT, pdFALSE, pdTRUE, portMAX_DELAY);
